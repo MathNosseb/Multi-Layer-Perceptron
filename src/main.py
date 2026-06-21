@@ -24,7 +24,7 @@ b = random.random()
 lr = 0.1
 
 #entrainement
-for i in range(100000):
+for _ in range(100000):
 
     dataset = random.choice(train)
 
